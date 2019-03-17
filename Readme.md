@@ -1,6 +1,8 @@
 #Instrucciones
 
-Cada revista tiene instrucciones particulares para enviar sus artículo. Es recomendable el uso de "checklists" dependiendo de la estudio. Los revisores usan dichos listados para evaluar la calidad de los manuscritos.
+La idea detrás de este repositorio es integrar el uso de R markdown para extraer objetos de la base de datos de donde provienen directamente al manuscrito.
+
+Sin embargo, cada revista tiene instrucciones particulares para enviar sus artículo. Es recomendable el uso de listado de verificación dependiendo de la estudio, los cuales la gran mayoría de las revistas tienden a seguir. Además, los revisores usan dichos listados para evaluar la calidad de los manuscritos.
 
 #Listados de listas de verificación más usadas
 
