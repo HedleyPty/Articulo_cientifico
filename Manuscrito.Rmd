@@ -1,0 +1,44 @@
+---
+title: ''
+output: word_document
+---
+```{r cargar_librerias, echo=T}
+
+#Trate de no cargas cargar librerías en un chunk, sino cargarlos desde un script
+
+```
+
+```{r objetos_a_inyectar, echo=T}
+
+#Trate de no crear códigos en los "chunks" sino cargar objetos desde los scripts
+
+```
+
+#Resumen
+
+##Introducción
+
+##Materiales y métodos
+
+##Resultados
+
+##Discusión
+
+#Introducción
+
+#Materiales y métodos
+
+#Resultados
+
+#Discusión
+
+#Tablas y gráficas
+
+```{r graficos_y_tablas, echo=T}
+#Utilice objetos cargados para crear tablas, 
+
+
+```
+
+
+#Referencias
