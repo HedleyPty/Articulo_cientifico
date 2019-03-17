@@ -6,6 +6,6 @@ Sin embargo, cada revista tiene instrucciones particulares para enviar sus artíc
 
 # Listados de listas de verificación más usadas
 
-- **STROBE**: Listado de verificación para estudios observacionales por excelencia: Estudios de prevalencia, estudios de cohortes y de casos y controles [Enlace al listado](https://www.strobe-statement.org/fileadmin/Strobe/uploads/checklists/STROBE_checklist_v4_combined.pdf).
-- **CONSORT**: Listado de verificación para ensayos clínicos [Enlace al listado](http://www.consort-statement.org/media/default/downloads/consort%202010%20checklist.pdf).
-- **MOOSE**: Listado de vericación para meta-análisis de estudios observacionales [MOOSE](https://www.elsevier.com/__data/promis_misc/ISSM_MOOSE_Checklist.pdf).
+- **STROBE**: Listado de verificación para estudios observacionales por excelencia: Estudios de prevalencia, estudios de cohortes y de casos y controles. [Enlace al listado](https://www.strobe-statement.org/fileadmin/Strobe/uploads/checklists/STROBE_checklist_v4_combined.pdf).
+- **CONSORT**: Listado de verificación para ensayos clínicos. [Enlace al listado](http://www.consort-statement.org/media/default/downloads/consort%202010%20checklist.pdf).
+- **MOOSE**: Listado de vericación para meta-análisis de estudios observacionales. [Enlace al listado](https://www.elsevier.com/__data/promis_misc/ISSM_MOOSE_Checklist.pdf).
