@@ -5,13 +5,15 @@ output: word_document
 ```{r cargar_librerias, echo=T}
 
 #Trate de no cargas cargar librerías en un chunk, sino cargarlos desde un script
+source("scripts/librerias.R")
 
 ```
 
 ```{r objetos_a_inyectar, echo=T}
 
 #Trate de no crear códigos en los "chunks" sino cargar objetos desde los scripts
-
+source("scripts/Objetos.R")
+source("scripts/Funciones generadoras de texto.R")
 ```
 
 #Resumen
