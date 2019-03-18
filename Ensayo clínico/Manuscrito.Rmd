@@ -5,7 +5,7 @@ output: word_document
 ```{r cargar_librerias, echo=T}
 
 #Trate de no cargas cargar librerías en un chunk, sino cargarlos desde un script
-source("scripts/librerias.R")
+source("scripts/librerías.R")
 
 ```
 
