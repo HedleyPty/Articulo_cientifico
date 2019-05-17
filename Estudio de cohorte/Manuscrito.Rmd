@@ -1,5 +1,5 @@
 ---
-title: ''
+title: "Título:  El diseño puede incluirse en el título -pero DEBE hacerlo si la revista así lo indica-"
 output: word_document
 ---
 ```{r cargar_librerias, echo=T}
@@ -16,11 +16,23 @@ source("scripts/Objetos.R")
 source("scripts/Funciones generadoras de texto.R")
 ```
 
+```{r intrucciones_del_resumen, echo=T}
+
+"-Proporcione en el resumen una sinopsis informativa y equilibrada de lo que se ha hecho y lo que se ha encontrado
+
+-El STROBE indica que el diseño del estudio debe incluirse en términos habituales, o bien en el título o en el resumen; sin embargo un resumen NO PUEDE SER una 'sinopsis' sin incluir este dato
+
+"
+```
+
 #Resumen
 
 ##Introducción
 
+
 ##Materiales y métodos
+
+
 
 ##Resultados
 
@@ -28,11 +40,112 @@ source("scripts/Funciones generadoras de texto.R")
 
 #Introducción
 
+##Contexto/fundamentos
+
+-  Explique las razones y el fundamento científicos de la investigación que se comunica
+
+##Objetivos
+
+-  Indique los objetivos específicos, incluida cualquier hipótesis preespecificada
+
 #Materiales y métodos
+
+##Diseño del estudio
+
+- Presente al principio del documento los elementos clave del diseño del estudio
+
+##Contexto
+
+- Describa el marco, los lugares y las fechas relevantes, incluido los períodos de reclutamiento, exposición, seguimiento y
+recogida de datos.
+
+##Participantes
+
+-  Proporcione los criterios de elegibilidad, así como las fuentes y el método de selección de los participantes. Especifique los métodos de seguimiento.
+- Proporcione las razones para la elección de casos y controles.
+- en los estudios apareados, proporcione los criterios para la formación de parejas y el número de participantes con y sin exposición.
+
+##Variables
+- Defina claramente todas las variables: de respuesta, exposiciones, predictoras, confusoras y modificacoras del efecto.
+- Si procede, proporcione los criterios diagnósticos.
+
+##Fuentes de datos/medidas
+
+- Para cada variable de interés, proporcione las fuentes de datos y los detalles de los métodos de valoración (medida).
+- Si hubiera ms de un grupo, especifique la comparabilidad de los procesos de medida
+
+
+##Tamaño de la muestra
+
+- Explique cómo se determinó el tamaño muestral
+
+##Variables cuantitativas
+
+-  Explique cómo se trataron las variables cuantitativas en el análisis. 
+- Si procede, explique qué grupos se definieron y por qué.
+
+##Métodos estadísticos
+
+- Especifique todos los métodos estadísticos, incluidos los empleados para controlar los factores de confusión
+- Especifique todos los métodos utilizados para analizar subgrupos e interacciones
+- Explique el tratamiento de los datos ausentes (*missing data*).
+- Si procede, explique cómo se afrontan las pérdidas en el seguimiento.
+- Describa los análisis de sensibilidad.
 
 #Resultados
 
+- Es menester **crear tablas** con la información solicitada por el **STROBE** y colocarlas donde la revista lo indique. 
+- Cree objetos con la información solicitada *que considere la más relevante*, *que aparezca en las tablas* e inyéctelos dentro del en el texto mediante *código incrustado*: véase la segunda página de la [hoja de referencia de R Markdown en Español](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-spanish.pdf).
+
+##Participantes
+-  Describa el número de participantes en cada fase del estudio; por ejemplo: cifras de los participantes potencialmente elegibles, los analizados para ser incluidos, los confirmados elegibles, los incluidos en el estudio, los que tuvieron un seguimiento completo y los analizados *si procede, para el grupo expuesto y el no expuesto por separado*.
+-  Describa las razones de la pérdida de participantes en cada fase *si procede, para el grupo expuesto y el no expuesto por separado*.
+- Considere el uso de un diagrama de flujo  *si procede, para el grupo expuesto y el no expuesto por separado*.
+
+##Datos descriptivos
+
+- Describa las características de los participantes en el estudio (p. ej., demográficas, clínicas, sociales) y la información sobre las exposiciones y los posibles factores de confusión *si procede, para el grupo expuesto y el no expuesto por separado*.
+- Indique el número de participantes con datos ausentes en cada variable de interés *si procede, para el grupo expuesto y el no expuesto por separado*.
+-  Resuma el período de seguimiento (p. ej., promedio y total)
+
+##Datos de las variables del resultado
+
+- describa el número de eventos resultado, o bien proporcione medidas resumen a lo largo del tiempo *si procede, para el grupo expuesto y el no expuesto por separado*.
+
+##Resultados principales
+
+-  Proporcione estimaciones no ajustadas y, si procede, ajustadas por factores de confusión, así como su precisión (p. ej., intervalos de confianza del 95%). Especifique los factores de confusión por los que se ajusta y las razones para incluirlos.
+- Si categoriza variables continuas, describa los límites de los intervalos.
+- Si fuera pertinente, valore acompañar las estimaciones del riesgo relativo con estimaciones del riesgo absoluto para un período de tiempo relevante.
+
+##Otros análisis
+
+-Describa otros análisis efectuados (de subgrupos, interacciones o sensibilidad).
+
 #Discusión
+
+##Resultados clave
+
+- Resuma los resultados principales de los objetivos del estudio.
+
+##Limitaciones
+
+- Discuta las limitaciones del estudio, teniendo en cuenta posibles fuentes de sesgo o de imprecisión. Razone tanto sobre la dirección como sobre la magnitud de cualquier posible sesgo
+
+##Interpretación
+
+-  Discuta las limitaciones del estudio, teniendo en cuenta posibles fuentes de sesgo o de imprecisión. Razone tanto sobre la dirección como sobre la magnitud de cualquier posible sesgo.
+
+##Generabilidad
+
+- Discuta la posibilidad de generalizar los resultados (validez externa).
+
+#Otra información
+
+##Financiamiento
+
+- Especifique la financiación y el papel de los patrocinadores del estudio y, si procede, del estudio previo en el que se basa el presente artículo.
+
 
 #Tablas y gráficas
 
@@ -44,3 +157,5 @@ source("scripts/Funciones generadoras de texto.R")
 
 
 #Referencias
+
+- Utilice las herramientas de R markdown para manejar la bibliografía.
