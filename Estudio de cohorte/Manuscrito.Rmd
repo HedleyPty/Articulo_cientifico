@@ -62,8 +62,7 @@ recogida de datos.
 ##Participantes
 
 -  Proporcione los criterios de elegibilidad, así como las fuentes y el método de selección de los participantes. Especifique los métodos de seguimiento.
-- Proporcione las razones para la elección de casos y controles.
-- en los estudios apareados, proporcione los criterios para la formación de parejas y el número de participantes con y sin exposición.
+- En los estudios apareados, proporcione los criterios para la formación de parejas y el número de participantes con y sin exposición.
 
 ##Variables
 - Defina claramente todas las variables: de respuesta, exposiciones, predictoras, confusoras y modificacoras del efecto.
@@ -72,7 +71,7 @@ recogida de datos.
 ##Fuentes de datos/medidas
 
 - Para cada variable de interés, proporcione las fuentes de datos y los detalles de los métodos de valoración (medida).
-- Si hubiera ms de un grupo, especifique la comparabilidad de los procesos de medida
+- Si hubiera más de un grupo, especifique la comparabilidad de los procesos de medida
 
 
 ##Tamaño de la muestra
@@ -81,7 +80,7 @@ recogida de datos.
 
 ##Variables cuantitativas
 
--  Explique cómo se trataron las variables cuantitativas en el análisis. 
+- Explique cómo se trataron las variables cuantitativas en el análisis. 
 - Si procede, explique qué grupos se definieron y por qué.
 
 ##Métodos estadísticos
@@ -95,7 +94,7 @@ recogida de datos.
 #Resultados
 
 - Es menester **crear tablas** con la información solicitada por el **STROBE** y colocarlas donde la revista lo indique. 
-- Cree objetos con la información solicitada *que considere la más relevante*, *que aparezca en las tablas* e inyéctelos dentro del en el texto mediante *código incrustado*: véase la segunda página de la [hoja de referencia de R Markdown en Español](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-spanish.pdf).
+- Cree objetos con la dato solicitado e inyéctelos dentro del en el texto mediante *código incrustado*, *que considere la más relevante* y *que aparezca en alguna de tablas* : véase la segunda página de la [hoja de referencia de R Markdown en Español](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-spanish.pdf). Recuerde **referir la tabla donde se encuencia el dato**.
 
 ##Participantes
 -  Describa el número de participantes en cada fase del estudio; por ejemplo: cifras de los participantes potencialmente elegibles, los analizados para ser incluidos, los confirmados elegibles, los incluidos en el estudio, los que tuvieron un seguimiento completo y los analizados *si procede, para el grupo expuesto y el no expuesto por separado*.
