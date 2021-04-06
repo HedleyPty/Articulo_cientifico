@@ -101,13 +101,13 @@ recogida de datos.
 
 ##Datos descriptivos
 
-- Describa las características de los participantes en el estudio (p. ej., demográficas, clínicas, sociales) y la información sobre las exposiciones y los posibles factores de confusión *por separadado para casos y controles*.
-- Indique el número de participantes con datos ausentes en cada variable de interés *por separadado para casos y controles*.
+- Describa las características de los participantes en el estudio (p. ej., demográficas, clínicas, sociales) y la información sobre las exposiciones y los posibles factores de confusión.
+- Indique el número de participantes con datos ausentes en cada variable de interés.
 
 ##Datos de las variables del resultado
 
 - Describa el número de participantes en cada categoría de exposición, o bien proporcione medidas
-resumen de exposición *por separadado para casos y controles*.
+resumen de exposición.
 
 ##Resultados principales
 
