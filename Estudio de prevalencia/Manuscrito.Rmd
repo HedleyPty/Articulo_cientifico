@@ -95,9 +95,9 @@ recogida de datos.
 - Cree objetos con la información solicitada *que considere la más relevante*, *que aparezca en las tablas* e inyéctelos dentro del en el texto mediante *código incrustado*: véase la segunda página de la [hoja de referencia de R Markdown en Español](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-spanish.pdf).
 
 ##Participantes
--  Describa el número de participantes en cada fase del estudio; por ejemplo: cifras de los participantes potencialmente elegibles, los analizados para ser incluidos, los confirmados elegibles, los incluidos en el estudio, los que tuvieron un seguimiento completo y los analizados *por separadado para casos y controles*.
--  Describa las razones de la pérdida de participantes en cada fase *por separadado para casos y controles*.
-- Considere el uso de un diagrama de flujo  *por separadado para casos y controles*.
+-  Describa el número de participantes en cada fase del estudio; por ejemplo: cifras de los participantes potencialmente elegibles, los analizados para ser incluidos, los confirmados elegibles, los incluidos en el estudio, los que tuvieron un seguimiento completo y los analizados.
+-  Describa las razones de la pérdida de participantes en cada fase.
+- Considere el uso de un diagrama de flujo.
 
 ##Datos descriptivos
 
