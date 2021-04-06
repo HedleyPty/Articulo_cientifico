@@ -61,9 +61,7 @@ recogida de datos.
 
 ##Participantes
 
--  Proporcione los criterios de elegibilidad así como las fuentes y el proceso diagnóstico de los casos y el de selección de los controles.
-- Proporcione las razones para la elección de casos y controles.
-- En los estudios apareados, proporcione los criterios para la formación de las parejas y el número de controles por cada caso.
+-  Proporcione los criterios de elegibilidad, así como las fuentes y el método de selección de los participantes.
 
 ##Variables
 - Defina claramente todas las variables: de respuesta, exposiciones, predictoras, confusoras y modificacoras del efecto.
@@ -89,7 +87,7 @@ recogida de datos.
 - Especifique todos los métodos estadísticos, incluidos los empleados para controlar los factores de confusión
 - Especifique todos los métodos utilizados para analizar subgrupos e interacciones
 - Explique el tratamiento de los datos ausentes (*missing data*).
--  Describa los análisis de sensibilidad.
+- Describa los análisis de sensibilidad.
 
 #Resultados
 
