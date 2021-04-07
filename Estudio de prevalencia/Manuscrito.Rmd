@@ -1,7 +1,18 @@
 ---
 title: "Título:  El diseño puede incluirse en el título -pero DEBE hacerlo si la revista así lo indica-"
 output: word_document
+bibliography: References/references.bib
+csl: References/vancouver.csl
 ---
+
+#Acerca de las referencias
+
+- Debe cargar las referencias en el archivo reference.bib
+- Debe utilizar el estilo requerido por la revista, aunque uso Vancouver en este ejemplo debe utilizar el estilo que le pida la revista
+- Ejemplo de cita [@Lumley2014]
+
+
+
 ```{r cargar_librerias, echo=T}
 
 #Trate de no cargas cargar librerías en un chunk, sino cargarlos desde un script
