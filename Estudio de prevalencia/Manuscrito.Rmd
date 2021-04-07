@@ -1,11 +1,11 @@
 ---
 title: "Título:  El diseño puede incluirse en el título -pero DEBE hacerlo si la revista así lo indica-"
 output: word_document
-bibliography: References/references.bib
-csl: References/vancouver.csl
+bibliography: Referencias/Referencias.bib
+csl: Referencias/vancouver.csl
 ---
 
-#Acerca de las referencias
+# Acerca de las referencias
 
 - Debe cargar las referencias en el archivo reference.bib
 - Debe utilizar el estilo requerido por la revista, aunque uso Vancouver en este ejemplo debe utilizar el estilo que le pida la revista
@@ -36,103 +36,103 @@ source("scripts/Funciones generadoras de texto.R")
 "
 ```
 
-#Resumen
+# Resumen
 
-##Introducción
-
-
-##Materiales y métodos
+## Introducción
 
 
+## Materiales y métodos
 
-##Resultados
 
-##Discusión
 
-#Introducción
+## Resultados
 
-##Contexto/fundamentos
+## Discusión
+
+# Introducción
+
+## Contexto/fundamentos
 
 -  Explique las razones y el fundamento científicos de la investigación que se comunica
 
-##Objetivos
+## Objetivos
 
 -  Indique los objetivos específicos, incluida cualquier hipótesis preespecificada
 
-#Materiales y métodos
+# Materiales y métodos
 
-##Diseño del estudio
+## Diseño del estudio
 
 - Presente al principio del documento los elementos clave del diseño del estudio
 
-##Contexto
+## Contexto
 
 - Describa el marco, los lugares y las fechas relevantes, incluido los períodos de reclutamiento, exposición, seguimiento y
 recogida de datos.
 
-##Participantes
+## Participantes
 
 -  Proporcione los criterios de elegibilidad, así como las fuentes y el método de selección de los participantes.
 
-##Variables
+## Variables
 - Defina claramente todas las variables: de respuesta, exposiciones, predictoras, confusoras y modificacoras del efecto.
 - Si procede, proporcione los criterios diagnósticos.
 
-##Fuentes de datos/medidas
+## Fuentes de datos/medidas
 
 - Para cada variable de interés, proporcione las fuentes de datos y los detalles de los métodos de valoración (medida).
 - Si hubiera más de un grupo, especifique la comparabilidad de los procesos de medida
 
 
-##Tamaño de la muestra
+## Tamaño de la muestra
 
 - Explique cómo se determinó el tamaño muestral
 
-##Variables cuantitativas
+## Variables cuantitativas
 
 -  Explique cómo se trataron las variables cuantitativas en el análisis. 
 - Si procede, explique qué grupos se definieron y por qué.
 
-##Métodos estadísticos
+## Métodos estadísticos
 
 - Especifique todos los métodos estadísticos, incluidos los empleados para controlar los factores de confusión
 - Especifique todos los métodos utilizados para analizar subgrupos e interacciones
 - Explique el tratamiento de los datos ausentes (*missing data*).
 - Describa los análisis de sensibilidad.
 
-#Resultados
+# Resultados
 
 - Es menester **crear tablas** con la información solicitada por el **STROBE** y colocarlas donde la revista lo indique. 
 - Cree objetos con la información solicitada *que considere la más relevante*, *que aparezca en las tablas* e inyéctelos dentro del en el texto mediante *código incrustado*: véase la segunda página de la [hoja de referencia de R Markdown en Español](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-spanish.pdf).
 
-##Participantes
+## Participantes
 -  Describa el número de participantes en cada fase del estudio; por ejemplo: cifras de los participantes potencialmente elegibles, los analizados para ser incluidos, los confirmados elegibles, los incluidos en el estudio, los que tuvieron un seguimiento completo y los analizados.
 -  Describa las razones de la pérdida de participantes en cada fase.
 - Considere el uso de un diagrama de flujo.
 
-##Datos descriptivos
+## Datos descriptivos
 
 - Describa las características de los participantes en el estudio (p. ej., demográficas, clínicas, sociales) y la información sobre las exposiciones y los posibles factores de confusión.
 - Indique el número de participantes con datos ausentes en cada variable de interés.
 
-##Datos de las variables del resultado
+## Datos de las variables del resultado
 
 - Describa el número de participantes en cada categoría de exposición, o bien proporcione medidas
 resumen de exposición.
 
-##Resultados principales
+## Resultados principales
 
 -  Proporcione estimaciones no ajustadas y, si procede, ajustadas por factores de confusión, así como su precisión (p. ej., intervalos de confianza del 95%). Especifique los factores de confusión por los que se ajusta y las razones para incluirlos.
 - Si categoriza variables continuas, describa los límites de los intervalos.
 - Si fuera pertinente, valore acompañar las estimaciones del riesgo relativo con estimaciones del riesgo absoluto para un período de tiempo relevante.
 
-##Otros análisis
+## Otros análisis
 
 -Describa otros análisis efectuados (de subgrupos, interacciones o sensibilidad).
 
-#Discusión
+# Discusión
 
-##Resultados clave
+## Resultados clave
 
 - Resuma los resultados principales de los objetivos del estudio.
 
@@ -140,30 +140,30 @@ resumen de exposición.
 
 - Discuta las limitaciones del estudio, teniendo en cuenta posibles fuentes de sesgo o de imprecisión. Razone tanto sobre la dirección como sobre la magnitud de cualquier posible sesgo
 
-##Interpretación
+## Interpretación
 
 -  Discuta las limitaciones del estudio, teniendo en cuenta posibles fuentes de sesgo o de imprecisión. Razone tanto sobre la dirección como sobre la magnitud de cualquier posible sesgo.
 
-##Generabilidad
+## Generabilidad
 
 - Discuta la posibilidad de generalizar los resultados (validez externa).
 
-#Otra información
+# Otra información
 
-##Financiamiento
+## Financiamiento
 
 - Especifique la financiación y el papel de los patrocinadores del estudio y, si procede, del estudio previo en el que se basa el presente artículo.
 
 
-#Tablas y gráficas
+# Tablas y gráficas
 
 ```{r graficos_y_tablas, echo=T}
-#Utilice objetos cargados para crear tablas, 
+# Utilice objetos cargados para crear tablas, 
 
 
 ```
 
 
-#Referencias
+# Referencias
 
 - Utilice las herramientas de R markdown para manejar la bibliografía.
