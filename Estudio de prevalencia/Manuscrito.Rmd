@@ -165,5 +165,3 @@ resumen de exposición.
 
 
 # Referencias
-
-- Utilice las herramientas de R markdown para manejar la bibliografía.
